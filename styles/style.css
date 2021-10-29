@@ -4,6 +4,15 @@
     box-sizing: border-box;    
 }
 
-body{
-
+@media (max-width: 1024px) {
+    .form-3dicon .three-d-icon img .py-5
+    {
+        width: 400px !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .form {
+        margin-left: 150px !important;
+        padding: 0 !important;
+    }
 }
